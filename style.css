@@ -31,7 +31,9 @@ h3 {
     margin-top: 25px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    margin-left: 78rem;
+    margin-left: 77rem;
+    width: 125px;
+    padding: 5px;
 }
 
 footer {
@@ -61,10 +63,6 @@ footer {
 #pfooter {
     color: white;
     text-align: center;
-}
-
-hr {
-    color: #7700FB;
 }
 
 #obraz2 {
@@ -118,3 +116,87 @@ p {
 #projects {
     margin-bottom: 100px;
 }
+
+#obrazcontact {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#exitbtn {
+    border-radius: 25px;
+    font-size: 20px;
+    color: #7700FB;
+    border: solid 1.2px #7700FB;
+    background-color: white;
+    margin-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin-left: 80rem;
+    padding: 5px;
+    width: 100px;
+}
+
+#btnsend {
+    border-radius: 25px;
+    font-size: 20px;
+    color: #7700FB;
+    border: solid 1.2px #7700FB;
+    background-color: white;
+    margin-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    width: 125px;
+    padding: 5px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#pcontact {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#textform1 {
+    text-align: center;
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+    border: solid 1.5px lightgray;
+    margin-right: 10px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#textform2 {
+    text-align: center;
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+    border: solid 1.5px lightgray;
+    margin-left: 10px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+form {
+
+}
+
+#textarea {
+    margin-top: 20px;
+    display: flex;
+    margin: auto;
+    border: solid 1.5px lightgray;
+    width: 550px;
+    height: 150px;
+}
+
