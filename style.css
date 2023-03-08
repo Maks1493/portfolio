@@ -122,7 +122,7 @@ p {
     height: 150px;
     display: flex;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 #exitbtn {
@@ -153,7 +153,7 @@ p {
     display: flex;
     margin: auto;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 45px;
 }
 
 #pcontact {
@@ -187,10 +187,6 @@ p {
     margin-bottom: 20px;
 }
 
-form {
-
-}
-
 #textarea {
     margin-top: 20px;
     display: flex;
@@ -198,5 +194,75 @@ form {
     border: solid 1.5px lightgray;
     width: 550px;
     height: 150px;
+    font-size: 16px;
 }
 
+.ml12 {
+    font-weight: 200;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.ml12 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+.ml13 {
+    font-weight: 200;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.ml13 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+#imgproject {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    margin-top: 35px;
+}
+
+#btnproject {
+    border-radius: 25px;
+    font-size: 20px;
+    color: #7700FB;
+    border: solid 1.2px #7700FB;
+    background-color: white;
+    margin-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    width: 125px;
+    padding: 5px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#project {
+    display: grid;
+    place-items: center;
+    color: black;
+    font-size: 16px;
+    aspect-ratio: 2/1;
+    width: 100%;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    height: 550px;
+}
+
+#projects {
+    display: flex;
+    list-style: none;
+    max-width: 600px;
+    margin-block: 0,1rem;
+    margin-inline: auto;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
