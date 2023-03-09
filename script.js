@@ -38,4 +38,4 @@ var textWrapper = document.querySelector('.ml12');
             easing: "easeInExpo",
             duration: 1100,
             delay: (el, i) => 100 + 30 * i
-        });        
+        });
