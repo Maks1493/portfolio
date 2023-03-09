@@ -25,8 +25,8 @@ h3 {
 #btncontact {
     border-radius: 25px;
     font-size: 20px;
-    color: #7700FB;
-    border: solid 1.2px #7700FB;
+    color: #286ffe;
+    border: solid 1.2px #286ffe;
     background-color: white;
     margin-top: 25px;
     font-family: 'Montserrat', sans-serif;
@@ -34,35 +34,41 @@ h3 {
     margin-left: 77rem;
     width: 125px;
     padding: 5px;
+    transition: 0.45s;
+}
+
+#btncontact:hover {
+    background-color: #286ffe;
+    color: white;
 }
 
 footer {
-    background-color: #7700FB;
+    background-color: #286ffe;
     position: static;
-    left: 0;
-    bottom: 0;
     width: 100%;
-    height: 3rem;
     border-radius: 10px;
     text-align: center;
-    line-height: 3rem;
     color: white;
     font-family: 'Golos Text', sans-serif;
     font-size: 18px;
-}
-
-#ikona {
-    height: 20px;
-    width: 20px;
-    background-color: #7700FB;
-    display: inline;
-    align-items: center;
-    margin: auto;
+    min-height: 100%;
+    height: 175px;
 }
 
 #pfooter {
     color: white;
     text-align: center;
+    font-size: 25px;
+    font-family: 'Golos Text', sans-serif;
+    margin-bottom: 30px;
+}
+
+#ikona {
+    margin: auto;
+    height: 40px;
+    width: 40px;
+    padding: 14px;
+    color: white;
 }
 
 #obraz2 {
@@ -82,12 +88,6 @@ footer {
     font-family: 'Golos Text', sans-serif;
 }
 
-#footerh {
-    color: white;
-    font-family: 'Golos Text', sans-serif;
-    text-align: center;
-}
-
 p {
     text-align: center;
     font-size: 18px;
@@ -99,7 +99,7 @@ p {
 }
 
 #about {
-    background-color: #7700FB;
+    background-color: #286ffe;
     border-radius: 10px;
     height: 200px;
 }
@@ -128,8 +128,8 @@ p {
 #exitbtn {
     border-radius: 25px;
     font-size: 20px;
-    color: #7700FB;
-    border: solid 1.2px #7700FB;
+    color: #286ffe;
+    border: solid 1.2px #286ffe;
     background-color: white;
     margin-top: 25px;
     font-family: 'Montserrat', sans-serif;
@@ -137,13 +137,19 @@ p {
     margin-left: 80rem;
     padding: 5px;
     width: 100px;
+    transition: 0.45s;
+}
+
+#exitbtn:hover {
+    background-color: #286ffe;
+    color: white;
 }
 
 #btnsend {
     border-radius: 25px;
     font-size: 20px;
-    color: #7700FB;
-    border: solid 1.2px #7700FB;
+    color: #286ffe;
+    border: solid 1.2px #286ffe;
     background-color: white;
     margin-top: 25px;
     font-family: 'Montserrat', sans-serif;
@@ -154,6 +160,12 @@ p {
     margin: auto;
     justify-content: center;
     margin-top: 45px;
+    transition: 0.45s;
+}
+
+#btnsend:hover {
+    background-color: #286ffe;
+    color: white;
 }
 
 #pcontact {
@@ -195,6 +207,7 @@ p {
     width: 550px;
     height: 150px;
     font-size: 16px;
+    resize: none;
 }
 
 .ml12 {
@@ -232,17 +245,22 @@ p {
 #btnproject {
     border-radius: 25px;
     font-size: 20px;
-    color: #7700FB;
-    border: solid 1.2px #7700FB;
+    color: #286ffe;
+    border: solid 1.2px #286ffe;
     background-color: white;
     margin-top: 25px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     width: 125px;
     padding: 5px;
-    display: flex;
     margin: auto;
     justify-content: center;
+    transition: 0.45s;
+}
+
+#btnproject:hover {
+    background-color: #286ffe;
+    color: white;
 }
 
 #project {
@@ -266,3 +284,8 @@ p {
     overflow: auto;
     scroll-snap-type: x mandatory;
 }
+
+#dropbtn {
+    background: none;
+}
+
