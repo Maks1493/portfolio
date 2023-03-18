@@ -39,3 +39,26 @@ var textWrapper = document.querySelector('.ml12');
             duration: 1100,
             delay: (el, i) => 100 + 30 * i
         });
+
+        function sendMail() {
+            var params = {
+              name: document.getElementById("name").value,
+              email: document.getElementById("email").value,
+              message: document.getElementById("message").value,
+            };
+          
+            const serviceID = "service_lw6v8sc";
+            const templateID = "template_rwfe3vt";
+          
+              emailjs.send(serviceID, templateID, params)
+              .then(res=>{
+                  document.getElementById("name").value = "";
+                  document.getElementById("email").value = "";
+                  document.getElementById("message").value = "";
+                  console.log(res);          
+              })
+              .catch(err=>console.log(err));
+          
+          }
+          
+          
