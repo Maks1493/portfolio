@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="contact">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Contact</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("yNhNI8P3bZE8Ud80y");
+   })();
+</script>
+<script src="script.js"></script>
 </head>
-<body>
+<body id="contact">
     <a href="index.html"><button id="exitbtn">Back</button></a>
     <br>
     <br>
@@ -15,11 +24,11 @@
     <br>
     <p id="pcontact">Thanks for taking the time to reach out. How can I help you today?</p>
     <form>
-        <input type="text" id="textform1" placeholder="Name">
-        <input type="text" id="textform2" placeholder="Email">
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="email" placeholder="Email">
         <br>
-        <textarea name="Message" id="textarea"></textarea>
+        <textarea name="Message" id="message"></textarea>
     </form>
-    <input type="submit" value="Send" id="btnsend">
+    <button id="btnsend" onclick="sendMail()">Send</button>
 </body>
 </html>
