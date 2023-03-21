@@ -55,7 +55,8 @@ var textWrapper = document.querySelector('.ml12');
                   document.getElementById("name").value = "";
                   document.getElementById("email").value = "";
                   document.getElementById("message").value = "";
-                  console.log(res);          
+                  console.log(res);
+                  alert("Email send")          
               })
               .catch(err=>console.log(err));
           
