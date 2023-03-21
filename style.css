@@ -7,27 +7,10 @@ html, body {
     background-color: #286ffe;
   }
 
-  #contact {
-    background-color: white;
-  }
-
-
-  #cv {
-    background-color: white;
-  }
-
-
 h2 {
     text-align: center;
     margin-top: 100px;
     font-size: 33px;
-    font-family: 'Golos Text', sans-serif;
-    color: white;
-}
-
-h3 {
-    text-align: center;
-    font-size: 16px;
     font-family: 'Golos Text', sans-serif;
     color: white;
 }
@@ -39,46 +22,6 @@ h3 {
     height: auto;
     width: 18%;
     margin-top: 15px;
-}
-
-#btncontact {
-    border-radius: 25px;
-    font-size: 20px;
-    color: #286ffe;
-    border: solid 1.2px #286ffe;
-    background-color: white;
-    margin-top: 25px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    margin-left: 77rem;
-    width: 125px;
-    padding: 5px;
-    transition: 0.45s;
-}
-
-#btncontact:hover {
-    background-color: #286ffe;
-    color: white;
-}
-
-#btncv {
-    border-radius: 25px;
-    font-size: 20px;
-    color: #286ffe;
-    border: solid 1.2px #286ffe;
-    background-color: white;
-    margin-top: 25px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    margin-left: 77rem;
-    width: 125px;
-    padding: 5px;
-    transition: 0.45s;
-}
-
-#btncv:hover {
-    background-color: #286ffe;
-    color: white;
 }
 
 footer {
@@ -120,18 +63,11 @@ footer {
     margin-top: 100px;
 }
 
-#h2about {
-    text-align: center;
-    margin-top: 170px;
-    font-size: 33px;
-    font-family: 'Golos Text', sans-serif;
-    margin: auto;
-    margin-bottom: 30px;
-}
-
 #pabout {
     color: white;
     width: 60%;
+    font-size: 22px;
+    margin-top: 50px;
 }
 
 p {
@@ -157,11 +93,6 @@ p {
     padding-top: 1.15rem;
 }
 
-#projects {
-    margin-bottom: 100px;
-    display: inline-block;
-}
-
 #obrazcontact {
     width: 150px;
     height: 150px;
@@ -170,7 +101,7 @@ p {
     margin-top: 10px;
 }
 
-#exitbtn {
+.exitbtn {
     border-radius: 25px;
     font-size: 20px;
     color: #286ffe;
@@ -189,7 +120,7 @@ p {
     margin: auto;
 }
 
-#exitbtn:hover {
+.exitbtn:hover {
     background-color: #286ffe;
     color: white;
 }
@@ -268,6 +199,10 @@ p {
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 0.2em;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Golos Text', sans-serif;
+    color: white;
 }
 
 .ml12 .letter {
@@ -286,83 +221,6 @@ p {
     display: inline-block;
     line-height: 1em;
   }
-
-#imgproject {
-    width: 400px;
-    height: 300px;
-    display: flex;
-    margin: auto;
-    margin-top: 35px;
-}
-
-#btnproject {
-    border-radius: 25px;
-    font-size: 20px;
-    color: #286ffe;
-    border: solid 1.2px #286ffe;
-    background-color: white;
-    margin-top: 25px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    width: 125px;
-    padding: 5px;
-    margin: auto;
-    justify-content: center;
-    transition: 0.45s;
-}
-
-#btnproject:hover {
-    background-color: #286ffe;
-    color: white;
-}
-
-#project {
-    display: grid;
-    place-items: center;
-    color: black;
-    font-size: 16px;
-    aspect-ratio: 2/1;
-    width: 100%;
-    flex-shrink: 0;
-    scroll-snap-align: start;
-    height: 550px;
-}
-
-#projects {
-    display: flex;
-    list-style: none;
-    max-width: 600px;
-    margin-block: 0,1rem;
-    margin-inline: auto;
-    overflow: auto;
-    scroll-snap-type: x mandatory;
-}
-
-#dropbtn {
-    background: none;
-}
-
-#btnlearnproject {
-    border-radius: 25px;
-    font-size: 20px;
-    color: #286ffe;
-    border: solid 1.2px #286ffe;
-    background-color: white;
-    margin-top: 25px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    width: 165px;
-    padding: 5px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    transition: 0.45s;
-}
-
-#btnlearnproject:hover {
-    background-color: #286ffe;
-    color: white;
-}
 
 #btndownload {
     border-radius: 25px;
@@ -399,28 +257,8 @@ p {
     border: solid 3px black;
 }
 
-#exitbtncv {
-    border-radius: 25px;
-    font-size: 20px;
-    color: #286ffe;
-    border: solid 1.2px #286ffe;
+.subpage {
     background-color: white;
-    margin-top: 25px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    padding: 5px;
-    width: 100px;
-    transition: 0.45s;
-    margin-bottom: 25px; 
-    margin: auto;
-    position:absolute;
-    top:20px;
-    right:20px;
-}
-
-#exitbtncv:hover {
-    background-color: #286ffe;
-    color: white;
 }
 
 .header {
@@ -435,25 +273,7 @@ p {
     overflow: hidden;
     z-index: 10;
 }
-.main {
-    margin: 0 auto;
-    display: block;
-    height: 100%;
-    margin-top: 60px;
-}
-.mainInner{
-    display: table;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-}
-.mainInner div{
-    display:table-cell;
-    vertical-align: middle;
-    font-size: 3em;
-    font-weight: bold;
-    letter-spacing: 1.25px;
-}
+
 #sidebarMenu {
     height: 16.5%;
     position: absolute;
@@ -479,11 +299,7 @@ p {
     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
     text-align: center;
 }
-.sidebarMenuInner li span{
-    display: block;
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.50);
-}
+
 .sidebarMenuInner li a{
     color: #fff;
     text-transform: uppercase;
@@ -558,3 +374,174 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     transform: rotate(-135deg);
     margin-top: -9px;
 }
+
+@media only screen and (max-width: 768px) {
+    h2 {
+    font-size: 26px;
+    }
+    
+    h3 {
+    font-size: 14px;
+    }
+    
+    #obraz {
+    width: 30%;
+    }
+
+    #btncv {
+    margin-left: 0;
+    margin-top: 10px;
+    }
+    
+    #obraz2 {
+    width: 80%;
+    }
+    
+    #h2about {
+    font-size: 26px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    }
+    
+    #pabout {
+    width: 90%;
+    font-size: 16px;
+    font-size: 14.5px;
+    }
+    
+    p {
+    width: 90%;
+    font-size: 16px;
+    margin-bottom: 30px;
+    }
+    
+    #about {
+    margin-top: 70px;
+    height: auto;
+    }
+    
+    #projects {
+    margin-bottom: 50px;
+    }
+        
+    #exitbtn {
+    margin-left: 0;
+    margin-top: 10px;
+    }
+    
+    #btnsend {
+    margin-left: 0;
+    margin-top: 10px;
+    }
+
+    #ikona {
+        height: 30px;
+        width: 30px;
+    }
+
+    .ml12 {
+        font-size: 11px;
+    }
+
+    .spinner {
+        height: 2px;
+    }
+
+    #sidebarmenu {
+        width: 100px;
+    }
+
+    .sidebarMenuInner li {
+        padding: 2px;
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    }
+    
+    @media only screen and (max-width: 480px) {
+    h2 {
+    font-size: 22px;
+    }
+    
+    h3 {
+    font-size: 12px;
+    }
+    
+    #obraz {
+    width: 50%;
+    }
+        
+    #btncv {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+    }
+    
+    #obraz2 {
+    width: 90%;
+    }
+    
+    #h2about {
+    font-size: 22px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    }
+    
+    #pabout {
+    width: 90%;
+    font-size: 14.5px;
+    }
+    
+    p {
+    width: 90%;
+    font-size: 14px;
+    margin-bottom: 20px;
+    }
+    
+    #about {
+    margin-top: 70px;
+    height: auto;
+    }
+    
+    #projects {
+    margin-bottom: 30px;
+    }
+    
+    #exitbtn {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+    }
+    
+    #btnsend {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+    }
+
+    #ikona {
+        height: 30px;
+        width: 30px;
+    }
+
+    .ml12 {
+        font-size: 11px;
+    }
+
+    .spinner {
+        height: 2px;
+    }
+
+    #sidebarMenu {
+        width: 100px;
+        height: 10px;
+    }
+
+    .sidebarMenuInner li {
+        padding: 2px;
+        font-size: 10.5px;
+        padding: 5px;
+    }
+
+    }
