@@ -457,8 +457,40 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         padding: 5px;
     }
 
+    .exitbtn {
+        font-size: 10px;
+        width: 50px;
     }
-    
+
+    #btnsend {
+        font-size: 10px;
+        width: 50px;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    #message {
+        height: 100px;
+        width: 270px;
+    }   
+
+    #name {
+        font-size: 15px;
+        width: 250px;
+    }
+
+    #email {
+        font-size: 15px;
+        width: 250px;
+    }
+
+    #pcontact {
+        font-size: 20px;
+        width: 280px;
+    }
+
+    }
+
     @media only screen and (max-width: 480px) {
     h2 {
     font-size: 22px;
@@ -542,6 +574,49 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         padding: 2px;
         font-size: 10.5px;
         padding: 5px;
+    }
+
+    .exitbtn {
+        font-size: 10px;
+        width: 50px;
+    }
+
+    #btnsend {
+        font-size: 10px;
+        width: 50px;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    #message {
+        height: 100px;
+        width: 270px;
+    }   
+
+    #name {
+        font-size: 15px;
+        width: 250px;
+    }
+
+    #email {
+        font-size: 15px;
+        width: 250px;
+    }
+
+    #pcontact {
+        font-size: 20px;
+        width: 280px;
+    }
+
+    #btndownload {
+        font-size: 10px;
+        width: 90px;
+        right: 80px;
+    }
+
+    #imgcv {
+        width: 80%;
+        height: 80%;
     }
 
     }
