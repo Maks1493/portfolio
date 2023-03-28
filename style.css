@@ -155,7 +155,7 @@ p {
     font-size: 30px;
     margin-top: 65px;
     height: auto;
-    width: 50%;
+    width: 70%;
 }
 
 #name {
@@ -196,7 +196,6 @@ p {
 
 .ml12 {
     font-weight: 200;
-    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     text-align: center;
@@ -212,9 +211,11 @@ p {
 
 .ml13 {
     font-weight: 200;
-    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 0.2em;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Golos Text', sans-serif;
 }
 
 .ml13 .letter {
@@ -255,6 +256,14 @@ p {
     margin: auto;
     margin-top: 85px;
     border: solid 3px black;
+}
+
+#pcontactalert {
+    margin: auto;
+    color: black;
+    font-size: 23px;
+    margin-top: 20%;
+    width: auto;
 }
 
 .subpage {
@@ -620,3 +629,4 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     }
 
     }
+    

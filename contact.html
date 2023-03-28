@@ -6,15 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Contact</title>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script type="text/javascript">
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
    (function(){
       emailjs.init("yNhNI8P3bZE8Ud80y");
    })();
-</script>
-<script src="script.js"></script>
+    </script>
 </head>
 <body class="subpage">
     <a href="index.html"><button class="exitbtn">Back</button></a>
@@ -23,12 +20,12 @@
     <br>
     <br>
     <p id="pcontact">Thanks for taking the time to reach out. How can I help you today?</p>
-    <form>
-        <input type="text" id="name" placeholder="Name">
-        <input type="text" id="email" placeholder="Email">
-        <br>
-        <textarea name="Message" id="message"></textarea>
+    <form id="form">
+        <input type="text" id="name" name="name" placeholder="Name"><br>
+        <input type="email" id="email" name="email" placeholder="Email"><br>
+        <textarea id="message" name="message"></textarea><br>
+        <input type="button" value="Send" onclick="sendMail()" id="btnsend">
     </form>
-    <button id="btnsend" onclick="sendMail()">Send</button>
+    <script src="script.js"></script> 
 </body>
 </html>
