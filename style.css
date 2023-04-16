@@ -5,12 +5,20 @@ html, body {
     padding: 0;
     margin: 0;
     background-color: #286ffe;
+    scroll-behavior: smooth;
   }
 
 h2 {
     text-align: center;
     margin-top: 100px;
     font-size: 33px;
+    font-family: 'Golos Text', sans-serif;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    font-size: 16px;
     font-family: 'Golos Text', sans-serif;
     color: white;
 }
@@ -163,24 +171,43 @@ p {
     width: 350px;
     height: 40px;
     font-size: 18px;
-    border: solid 1.5px lightgray;
-    margin-right: 10px;
+    border: 0;
+    outline: 0;
+    border-bottom: solid 1.5px lightgray;
+    margin-left: 10px;
     display: flex;
     margin: auto;
-    margin-bottom: 20px;
     margin-top: 90px;
 }
+
+#name:focus {
+    outline: 0;
+    border: 0;
+    border-bottom: solid 1.5px #286ffe;
+    transition: 1s;
+} 
 
 #email {
     text-align: center;
     width: 350px;
     height: 40px;
     font-size: 18px;
-    border: solid 1.5px lightgray;
+    outline: none;
+    border: 0;
+    outline: 0;
+    border-bottom: solid 1.5px lightgray;
     margin-left: 10px;
     display: flex;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+#email:focus {
+    outline: 0;
+    border: 0;
+    border-bottom: solid 1.5px #286ffe;
+    transition: 1s;
 }
 
 #message {
@@ -192,6 +219,12 @@ p {
     height: 150px;
     font-size: 16px;
     resize: none;
+}
+
+#message:focus {
+    outline: 0;
+    border: solid 1.5px #286ffe;
+    transition: 1s;
 }
 
 .ml12 {
@@ -214,7 +247,7 @@ p {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     text-align: center;
-    font-size: 30px;
+    font-size: 16px;
     font-family: 'Golos Text', sans-serif;
 }
 
@@ -268,6 +301,102 @@ p {
 
 .subpage {
     background-color: white;
+}
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+#project {
+    display: grid;
+    place-items: center;
+    color: black;
+    font-size: 16px;
+    aspect-ratio: 2/1;
+    width: 100%;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    height: 550px;
+}
+
+#projects {
+    display: flex;
+    list-style: none;
+    max-width: 600px;
+    margin-block: 0,1rem;
+    margin-inline: auto;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+
+#imgproject {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    margin-top: 35px;
+}
+
+#btnproject {
+    border-radius: 25px;
+    font-size: 20px;
+    color: white;
+    border: solid 1.2px white;
+    background-color: #286ffe;
+    margin-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    width: 125px;
+    padding: 5px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    transition: 0.45s;
+}
+
+#btnproject:hover {
+    background-color: white;
+    color: #286ffe;
+    border: solid 1.2px #286ffe;
+}
+
+#btnlearnproject {
+    border-radius: 25px;
+    font-size: 20px;
+    color: #286ffe;
+    border: solid 1.2px #286ffe;
+    background-color: white;
+    margin-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    width: 165px;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    transition: 0.45s;
+    margin-bottom: 25px;
+}
+
+#btnlearnproject:hover {
+    background-color: #286ffe;
+    color: white;
+}
+
+.h2projects {
+    font-size: 28px;
+    color: black;
 }
 
 .header {
@@ -452,6 +581,10 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         font-size: 11px;
     }
 
+    .ml13 {
+        font-size: 11px;
+    }
+
     .spinner {
         height: 2px;
     }
@@ -567,6 +700,10 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     }
 
     .ml12 {
+        font-size: 11px;
+    }
+
+    .ml13 {
         font-size: 11px;
     }
 
