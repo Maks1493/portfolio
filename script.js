@@ -68,5 +68,8 @@ var textWrapper = document.querySelector('.ml12');
           duration: 1200,
         })
         
-      
+      function project1() {
+          window.open("https://github.com/Maks1493/Music_Player");
+      }
+
         
