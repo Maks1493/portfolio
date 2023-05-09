@@ -18,7 +18,7 @@ h2 {
 
 h3 {
     text-align: center;
-    font-size: 16px;
+    font-size: 25px;
     font-family: 'Golos Text', sans-serif;
     color: white;
 }
@@ -341,11 +341,12 @@ p {
 }
 
 #imgproject {
-    width: 400px;
+    width: 590px;
     height: 300px;
     display: flex;
     margin: auto;
-    margin-top: 35px;
+    border:  solid 2px black;
+    margin-top: 70px;
 }
 
 #btnproject {
@@ -397,6 +398,17 @@ p {
 .h2projects {
     font-size: 28px;
     color: black;
+}
+
+.lang {
+    width: 3%;
+    height: 3%;
+    padding: 10px;
+}
+
+.projectp {
+    color: black;
+    font-size: 25px;
 }
 
 .header {
@@ -518,10 +530,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     font-size: 26px;
     }
     
-    h3 {
-    font-size: 14px;
-    }
-    
     #obraz {
     width: 30%;
     }
@@ -563,13 +571,13 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     }
         
     #exitbtn {
-    margin-left: 0;
-    margin-top: 10px;
+        font-size: 10px;
+        width: 50px;
     }
     
     #btnsend {
-    margin-left: 0;
-    margin-top: 10px;
+        font-size: 10px;
+        width: 50px;
     }
 
     #ikona {
@@ -607,8 +615,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     #btnsend {
         font-size: 10px;
         width: 50px;
-        margin: auto;
-        margin-top: 25px;
     }
 
     #message {
@@ -631,15 +637,33 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         width: 280px;
     }
 
+    h3 {
+        text-align: center;
+        font-size: 26px;
+        font-family: 'Golos Text', sans-serif;
+        color: white;
+      }
+    
+      #imgproject {
+        width: 90%;
+        height: 200px;
+      }
+
+      #btnproject {
+        width: 100px;
+        font-size: 16px;
+    }
+
+    #pcontactalert {
+        font-size: 15px;
+        margin-top: 250px;
+    } 
+
     }
 
     @media only screen and (max-width: 480px) {
     h2 {
     font-size: 22px;
-    }
-    
-    h3 {
-    font-size: 12px;
     }
     
     #obraz {
@@ -683,15 +707,13 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     }
     
     #exitbtn {
-    margin-left: 0;
-    margin-top: 10px;
-    width: 100%;
+        font-size: 10px;
+        width: 50px;
     }
     
     #btnsend {
-    margin-left: 0;
-    margin-top: 10px;
-    width: 100%;
+        font-size: 10px;
+        width: 50px;
     }
 
     #ikona {
@@ -730,8 +752,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     #btnsend {
         font-size: 10px;
         width: 50px;
-        margin: auto;
-        margin-top: 25px;
     }
 
     #message {
@@ -765,5 +785,30 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         height: 80%;
     }
 
+    h3 {
+        text-align: center;
+        font-size: 22px;
+        font-family: 'Golos Text', sans-serif;
+        color: white;
+        margin: auto;
+      }
+    
+      #imgproject {
+        width: 90%;
+        height: 200px;
+        margin: auto;
+      }
+
+      #btnproject {
+        width: 100px;
+        font-size: 16px;
+        margin: auto;
+    }
+
+    #pcontactalert {
+        font-size: 15px;
+        margin-top: 250px;
+    } 
+      
     }
     
