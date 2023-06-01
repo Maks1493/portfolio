@@ -80,12 +80,13 @@ footer {
 
 p {
     text-align: center;
-    font-size: 18px;
+    font-size: 33px;
     font-family: 'Golos Text', sans-serif;
     width: 660px;
     margin: auto;
     margin-bottom: 50px;
     color: white;
+    margin-top: 100px;
 }
 
 #about {
